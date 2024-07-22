@@ -7,11 +7,31 @@ import SwiftUI
 
 struct OnboardingView: View {
     
+    @StateObject private var pathModel = PathModel()
     @StateObject private var onboardingViewModel_my = OnboardingViewModel()
     
   var body: some View {
     // TODO: - 화면 전환 구현 필요
-      OnboardingContentView(onboardingViewModel_input: onboardingViewModel_my)
+      NavigationStack(path: $pathModel.paths) {
+          OnboardingContentView(onboardingViewModel_input: onboardingViewModel_my)
+              .navigationDestination(
+                for: PathType.self) { pathType_st in
+                    switch pathType_st{
+                    case .homeView:
+                        HomeView()
+                            .navigationBarBackButtonHidden()
+                        
+                    case .todoView:
+                        TodoView()
+                            .navigationBarBackButtonHidden()
+                        
+                    case .memoView:
+                        MemoView()
+                            .navigationBarBackButtonHidden()
+                    }//switch pathType_st
+                }
+      }//NavigationStack(path: $pathModel.paths)
+      .environmentObject(pathModel)
   }
 }
 
@@ -112,9 +132,12 @@ private struct OnboardingCellView: View {
 
 // MARK: - 시작하기 버튼 뷰
 private struct StartButtonView: View {
+    
+    @EnvironmentObject private var pathMode_st: PathModel
+    
     fileprivate var body: some View {
         Button(action: {
-            
+            pathMode_st.paths.append(.homeView)
         }, label: {
             HStack{
                 Text("START!!!")
