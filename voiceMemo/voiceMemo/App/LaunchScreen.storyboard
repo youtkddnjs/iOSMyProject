@@ -20,7 +20,7 @@
                                 <rect key="frame" x="0.0" y="54" width="393" height="759"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="4T9-ck-IXY">
-                                <rect key="frame" x="160.66666666666666" y="378" width="72" height="96"/>
+                                <rect key="frame" x="160" y="378" width="72" height="96"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
@@ -42,7 +42,7 @@
     </scenes>
     <resources>
         <image name="background" width="393" height="852"/>
-        <image name="logo" width="288" height="384"/>
+        <image name="logo" width="72" height="96"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
