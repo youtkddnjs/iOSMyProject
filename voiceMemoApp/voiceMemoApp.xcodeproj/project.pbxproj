@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		1B2515E02C4DE9A300E50DF4 /* voiceMemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2515DF2C4DE9A300E50DF4 /* voiceMemoApp.swift */; };
 		1B2515E22C4DE9CB00E50DF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2515E12C4DE9CB00E50DF4 /* AppDelegate.swift */; };
-		1B2515ED2C4DEB1C00E50DF4 /* Color+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2515E52C4DEB1C00E50DF4 /* Color+extensions.swift */; };
+		1B2515ED2C4DEB1C00E50DF4 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2515E52C4DEB1C00E50DF4 /* Color+Extensions.swift */; };
 		1B2515EE2C4DEB1C00E50DF4 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2515E62C4DEB1C00E50DF4 /* Date+Extensions.swift */; };
 		1B2515EF2C4DEB1C00E50DF4 /* Double+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2515E72C4DEB1C00E50DF4 /* Double+Extensions.swift */; };
 		1B2515F02C4DEB1C00E50DF4 /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2515E82C4DEB1C00E50DF4 /* Int+Extensions.swift */; };
@@ -49,7 +49,7 @@
 /* Begin PBXFileReference section */
 		1B2515DF2C4DE9A300E50DF4 /* voiceMemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = voiceMemoApp.swift; sourceTree = "<group>"; };
 		1B2515E12C4DE9CB00E50DF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1B2515E52C4DEB1C00E50DF4 /* Color+extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+extensions.swift"; sourceTree = "<group>"; };
+		1B2515E52C4DEB1C00E50DF4 /* Color+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 		1B2515E62C4DEB1C00E50DF4 /* Date+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
 		1B2515E72C4DEB1C00E50DF4 /* Double+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double+Extensions.swift"; sourceTree = "<group>"; };
 		1B2515E82C4DEB1C00E50DF4 /* Int+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+Extensions.swift"; sourceTree = "<group>"; };
@@ -102,7 +102,7 @@
 		1B2515E92C4DEB1C00E50DF4 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				1B2515E52C4DEB1C00E50DF4 /* Color+extensions.swift */,
+				1B2515E52C4DEB1C00E50DF4 /* Color+Extensions.swift */,
 				1B2515E62C4DEB1C00E50DF4 /* Date+Extensions.swift */,
 				1B2515E72C4DEB1C00E50DF4 /* Double+Extensions.swift */,
 				1B2515E82C4DEB1C00E50DF4 /* Int+Extensions.swift */,
@@ -461,7 +461,7 @@
 				1B2516212C4DEB3100E50DF4 /* VoiceRecorderView.swift in Sources */,
 				1B2516362C4DEB3600E50DF4 /* Memo.swift in Sources */,
 				1B2516172C4DEB3100E50DF4 /* MemoViewModel.swift in Sources */,
-				1B2515ED2C4DEB1C00E50DF4 /* Color+extensions.swift in Sources */,
+				1B2515ED2C4DEB1C00E50DF4 /* Color+Extensions.swift in Sources */,
 				1B2515FA2C4DEB2B00E50DF4 /* NavigationBtnType.swift in Sources */,
 				1B2515F02C4DEB1C00E50DF4 /* Int+Extensions.swift in Sources */,
 				1B25163B2C4DEB3600E50DF4 /* Todo.swift in Sources */,
